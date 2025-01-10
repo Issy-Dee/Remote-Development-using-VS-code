@@ -1,6 +1,9 @@
 # Remote-Development-using-VS-code
 _Remote Development using VS code to a Linux Machine in Azure._
 
+![2-ssh-key-authentication](https://github.com/user-attachments/assets/c3bb9b0f-2442-41cf-a4a3-782b3f3d8af2)
+
+
 Suppose you work at an agency that does software consulting around many different languages and runtime environments. All developers are using Visual Studio Code. The agency has dozens of projects in progress, each with its own configuration and runtime requirements. Developers at your agency need to work on any project without having to set up or configure their machines first. Here I will show how to seamlessly develop on a remote machine using the Visual Studio Code Remote - SSH extension. I will run and debug code located on a remote machine, while locally using Visual Studio Code's full feature set.
 
 ### Objectives
@@ -24,10 +27,23 @@ Basic familiarity with the Visual Studio Code editor
    
 2. Next Create the VM using Azure CLI Script
 
+<img width="2116" alt="Screenshot 2025-01-10 at 16 15 40" src="https://github.com/user-attachments/assets/8493b32c-cdc4-4b82-9db6-f5399353e5b4" />
 
-<img width="2116" alt="Screenshot 2025-01-10 at 16 15 40" src="https://github.com/user-attachments/assets/21234ee4-14db-4a48-855a-bbb01c1eec02" />
 
-3. Create a Remote Connection on VS Code
+
+3. Downlaod the Remote-SSH Extension from the Extensions library.
+
+<img width="1428" alt="Screenshot 2025-01-10 at 17 45 22" src="https://github.com/user-attachments/assets/f387b4de-638f-4bf9-b6d2-f8baa0061265" />
+
+3. Create a Remote Connection on VS Code > Add a new ssh host
 <img width="1432" alt="Screenshot 2025-01-10 at 17 28 33" src="https://github.com/user-attachments/assets/d0ee6783-5c30-4816-9afc-1c1c4eb03de6" />
+<img width="1426" alt="Screenshot 2025-01-10 at 17 40 24" src="https://github.com/user-attachments/assets/cbf20e3c-a13f-46fd-8e46-4dc65c926016" />
 
-4. 
+4. Fill in using
+   ``` Bash
+   ssh user@hostname -i filepath
+   ```
+<img width="646" alt="Screenshot 2025-01-10 at 17 52 03" src="https://github.com/user-attachments/assets/160fc959-9231-49a9-a9c9-4c484c76e6f7" />
+
+5. ERROR- Port 80 is not the port that should be open it shouod 
+
