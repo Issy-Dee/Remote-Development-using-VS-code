@@ -59,7 +59,7 @@ chmod 400 /filepath/MySSHKey.pem
 <br> 
 
 
-6. Connect to machine - The bottom left contains the IP of the machine VS Code is running on.
+5. Connect to machine - The bottom left contains the IP of the machine VS Code is running on.
    <br>  
    
   <img width="1009" alt="Screenshot 2025-01-10 at 18 44 57" src="https://github.com/user-attachments/assets/f36543d3-8876-47f9-a254-91d66940e629" />  
