@@ -41,17 +41,21 @@ Basic familiarity with the Visual Studio Code editor
 
 4. Fill in using
    <br>
+   
    ``` Bash
    ssh user@hostname -i filepath
+
    ```
 <img width="646" alt="Screenshot 2025-01-10 at 17 52 03" src="https://github.com/user-attachments/assets/160fc959-9231-49a9-a9c9-4c484c76e6f7" />  
 <br>
 
-5. Ensure you have Port 22 Open from the VMs NSG if you run into any operation errors. Furthermore ensure you change the Private key File permissions using  
-<br> 
-   ``` Bash
-   chmod 400 /filepath/MySSHKey.pem
-   ```
+4.1 Ensure you have Port 22 Open from the VMs NSG if you run into any operation errors. 
+
+4.2 Furthermore ensure you change the Private key File permissions using
+
+``` Bash
+chmod 400 /filepath/MySSHKey.pem
+```
 <br> 
 
 
@@ -61,4 +65,4 @@ Basic familiarity with the Visual Studio Code editor
   <img width="1009" alt="Screenshot 2025-01-10 at 18 44 57" src="https://github.com/user-attachments/assets/f36543d3-8876-47f9-a254-91d66940e629" />  
 
 
-
+7. 
