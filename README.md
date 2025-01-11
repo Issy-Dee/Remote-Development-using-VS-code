@@ -139,7 +139,7 @@ Click Forward Port on ports and write 3000 in the box
 <br>
 <br>
 
-18. If you start writing code just like on vscode it will trigger the intelli sense and allow you to cayy on editing o the remote machine.
+18. If you start writing code just like on vscode it will trigger the intelli sense and allow you to carry on editing o the remote machine.
     <img width="535" alt="Screenshot 2025-01-11 at 14 33 24" src="https://github.com/user-attachments/assets/61ae70b1-bc37-4dfa-89e3-0a814005225b" />
 
     
