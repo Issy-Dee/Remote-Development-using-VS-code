@@ -2,7 +2,7 @@
 
 New-AzResourceGroup -Name 'Learn-SSH2' -Location 'WestUS3"
 
-# Create the VM to run the App
+#Create the VM to run the App
 
 New-AzVm -ResourceGroupName 'Learn-SSH2' -Name 'SSH-Test2' -Location 
 'WestUS3' -image Debian11 -size Standard_B2s -PublicIpAddressName myPubIP 
