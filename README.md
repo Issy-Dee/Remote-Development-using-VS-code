@@ -71,7 +71,7 @@ chmod 400 /filepath/MySSHKey.pem
 <br>
 <br>
 
-7. Open a new terminal by running the command "Terminal: Create New Terminal." From the terminal, run the following commands to update the packages in your Linux VM and install Node.js
+7. Open a new terminal by running the command "Terminal: Create New Terminal." From the terminal, run the following commands to update the packages in your Linux VM and install Node.js  
    ``` Bash
    sudo apt-get update
    ```
@@ -85,23 +85,23 @@ chmod 400 /filepath/MySSHKey.pem
 
    <br>
 
-8. Install Express Generator
+8. Install Express Generator  
   ``` bash
       sudo npm install -g express-generator
   ```
    <br>
    
-9. Create a new Application Using myExpressApp
+9. Create a new Application Using myExpressApp  
 ``` Bash
  express myExpressApp --view pug
 ```
 <br>
 
-10. Open the application files by clicking Open Folder in the Explorer view. Select "myExpressApp" in the dropdown to open the folder in your VS Code window.
+10. Open the application files by clicking Open Folder in the Explorer view. Select "myExpressApp" in the dropdown to open the folder in your VS Code window.  
     Click OK
     <img width="981" alt="Screenshot 2025-01-11 at 14 16 15" src="https://github.com/user-attachments/assets/eb05c25c-a27e-4d8f-9dea-5dc0f3e9c9c4" />
 
-11. Run to install dependencies
+11. Run to install dependencies  
     ``` bash
     npm install
     ```
@@ -112,14 +112,14 @@ chmod 400 /filepath/MySSHKey.pem
     ```
 The application will run on your VM's http://localhost:3000. 
 
-13. To browse this application on your local machine. Search Focus on Port
+13. To browse this application on your local machine. Search Focus on Port  
     
 <img width="653" alt="Screenshot 2025-01-11 at 14 20 21" src="https://github.com/user-attachments/assets/c6bec57b-d057-49f7-9f95-85c272572067" />
 
-Click Forward Port on ports and write 3000 in the box
+Click Forward Port on ports and write 3000 in the box  
 <img width="714" alt="Screenshot 2025-01-11 at 14 23 27" src="https://github.com/user-attachments/assets/f1e2532a-8e9f-4728-8058-9058b8ca6fc5" />
 
-14. Open In Browser
+14. Open In Browser  
     
 <img width="325" alt="Screenshot 2025-01-11 at 14 23 47" src="https://github.com/user-attachments/assets/59954a10-d88b-45bd-9c28-70d57ef64982" />
 
@@ -127,19 +127,20 @@ Click Forward Port on ports and write 3000 in the box
 <br>
 <br>
 
-15. Open app.js and set breakpoint on line 11
+15. Open app.js and set breakpoint on line 11  
     
 <img width="969" alt="Screenshot 2025-01-11 at 14 28 11" src="https://github.com/user-attachments/assets/7d391a25-8f22-4caf-aa22-6f6389e4f275" />
 <br>
 <br>
 
-17. Click on the run and debug on the application and then you can inspect the variables. The debug section is run using the controller above.
+17. Click on the run and debug on the application and then you can inspect the variables. The debug section is run using the controller above.  
     
     <img width="704" alt="Screenshot 2025-01-11 at 14 29 36" src="https://github.com/user-attachments/assets/afdbaa42-26a9-419b-9c9d-266ab928e90a" />
 <br>
 <br>
 
-18. If you start writing code just like on vscode it will trigger the intelli sense and allow you to carry on editing o the remote machine.
+18. If you start writing code just like on vscode it will trigger the intelli sense and allow you to carry on editing on the remote machine.  
+    
     <img width="535" alt="Screenshot 2025-01-11 at 14 33 24" src="https://github.com/user-attachments/assets/61ae70b1-bc37-4dfa-89e3-0a814005225b" />
 
     
